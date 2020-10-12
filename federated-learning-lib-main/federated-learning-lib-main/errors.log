@@ -1,0 +1,454 @@
+2020-10-11 19:03:11,797 -STD ibmfl.party.party_protocol_handler - ERROR - Unable to load training data from path provided in config file: examples/data/mnist/random\data_party1.npz
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\util\data_handlers\mnist_keras_data_handler.py", line 55, in get_data
+    data_train = np.load(self.file_name)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\numpy\lib\npyio.py", line 428, in load
+    fid = open(os_fspath(file), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'examples/data/mnist/random\\data_party1.npz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\party\party_protocol_handler.py", line 121, in handle_request
+    response = handler(data.get('payload'))
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\party\training\local_training_handler.py", line 65, in train
+    train_data, (_) = self.data_handler.get_data()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\util\data_handlers\mnist_keras_data_handler.py", line 63, in get_data
+    self.file_name)
+OSError: Unable to load training data from path provided in config file: examples/data/mnist/random\data_party1.npz
+2020-10-11 19:04:12,114 -STD ibmfl.aggregator.protohandler.proto_handler - ERROR - Party did not reply in time.
+2020-10-11 19:04:12,156 -STD ibmfl.aggregator.fusion.fusion_handler - ERROR - Max-timeout: quorum not reached. Party did not reply in time.
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 237, in query_parties
+    perc_quorum=perc_q)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 559, in periodically_verify_quorum
+    'Max-timeout: quorum not reached. Party did not reply in time.')
+ibmfl.exceptions.GlobalTrainingException: Max-timeout: quorum not reached. Party did not reply in time.
+2020-10-11 19:04:12,327 -STD __main__ - ERROR - Exception occurred while training.
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 237, in query_parties
+    perc_quorum=perc_q)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 559, in periodically_verify_quorum
+    'Max-timeout: quorum not reached. Party did not reply in time.')
+ibmfl.exceptions.GlobalTrainingException: Max-timeout: quorum not reached. Party did not reply in time.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\aggregator.py", line 159, in start_training
+    self.fusion.start_global_training()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\iter_avg_fusion_handler.py", line 100, in start_global_training
+    lst_replies = self.query_all_parties(payload)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 198, in query_all_parties
+    lst_model_updates = self.query_parties(payload, lst_parties)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 273, in query_parties
+    'Error occurred while sending requests to parties')
+ibmfl.exceptions.GlobalTrainingException: Error occurred while sending requests to parties
+2020-10-11 19:04:12,407 -STD __main__ - ERROR - Error occurred while sending requests to parties
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 237, in query_parties
+    perc_quorum=perc_q)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 559, in periodically_verify_quorum
+    'Max-timeout: quorum not reached. Party did not reply in time.')
+ibmfl.exceptions.GlobalTrainingException: Max-timeout: quorum not reached. Party did not reply in time.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\aggregator.py", line 159, in start_training
+    self.fusion.start_global_training()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\iter_avg_fusion_handler.py", line 100, in start_global_training
+    lst_replies = self.query_all_parties(payload)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 198, in query_all_parties
+    lst_model_updates = self.query_parties(payload, lst_parties)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 273, in query_parties
+    'Error occurred while sending requests to parties')
+ibmfl.exceptions.GlobalTrainingException: Error occurred while sending requests to parties
+2020-10-11 19:24:19,044 -STD ibmfl.party.party_protocol_handler - ERROR - Unable to load training data from path provided in config file: examples/data/mnist/random\data_party1.npz
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\util\data_handlers\mnist_keras_data_handler.py", line 55, in get_data
+    data_train = np.load(self.file_name)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\numpy\lib\npyio.py", line 428, in load
+    fid = open(os_fspath(file), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'examples/data/mnist/random\\data_party1.npz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\party\party_protocol_handler.py", line 121, in handle_request
+    response = handler(data.get('payload'))
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\party\training\local_training_handler.py", line 65, in train
+    train_data, (_) = self.data_handler.get_data()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\util\data_handlers\mnist_keras_data_handler.py", line 63, in get_data
+    self.file_name)
+OSError: Unable to load training data from path provided in config file: examples/data/mnist/random\data_party1.npz
+2020-10-11 19:24:21,023 -STD ibmfl.aggregator.protohandler.proto_handler - ERROR - Error occurred while sending request to party: <ibmfl.aggregator.party_connection.PartyConnection object at 0x00000226747BD668> - HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /7 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000226747FBF28>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1287, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1333, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1282, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1042, in _send_output
+    self.send(msg)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 980, in send
+    self.connect()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000226747FBF28>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /7 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000226747FBF28>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 116, in send_message
+    res_msg = self.connection.send_message(party.info, message)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\connection\flask_connection.py", line 481, in send_message
+    response = self.post(endpoint, path, message, headers, certs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\connection\flask_connection.py", line 396, in post
+    return requests.post(url, data=data, headers=headers, verify=False, cert=certs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /7 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000226747FBF28>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+2020-10-11 19:24:21,024 -STD ibmfl.aggregator.protohandler.proto_handler - ERROR - Error occurred while sending request to party: <ibmfl.aggregator.party_connection.PartyConnection object at 0x00000226747BD978> - HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /7 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022674812390>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1287, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1333, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1282, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1042, in _send_output
+    self.send(msg)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 980, in send
+    self.connect()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000022674812390>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /7 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022674812390>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 116, in send_message
+    res_msg = self.connection.send_message(party.info, message)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\connection\flask_connection.py", line 481, in send_message
+    response = self.post(endpoint, path, message, headers, certs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\connection\flask_connection.py", line 396, in post
+    return requests.post(url, data=data, headers=headers, verify=False, cert=certs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /7 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022674812390>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+2020-10-11 19:25:21,306 -STD ibmfl.aggregator.protohandler.proto_handler - ERROR - Party did not reply in time.
+2020-10-11 19:25:21,312 -STD ibmfl.aggregator.fusion.fusion_handler - ERROR - Max-timeout: quorum not reached. Party did not reply in time.
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 237, in query_parties
+    perc_quorum=perc_q)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 559, in periodically_verify_quorum
+    'Max-timeout: quorum not reached. Party did not reply in time.')
+ibmfl.exceptions.GlobalTrainingException: Max-timeout: quorum not reached. Party did not reply in time.
+2020-10-11 19:25:21,367 -STD __main__ - ERROR - Exception occurred while training.
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 237, in query_parties
+    perc_quorum=perc_q)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 559, in periodically_verify_quorum
+    'Max-timeout: quorum not reached. Party did not reply in time.')
+ibmfl.exceptions.GlobalTrainingException: Max-timeout: quorum not reached. Party did not reply in time.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\aggregator.py", line 159, in start_training
+    self.fusion.start_global_training()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\iter_avg_fusion_handler.py", line 100, in start_global_training
+    lst_replies = self.query_all_parties(payload)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 198, in query_all_parties
+    lst_model_updates = self.query_parties(payload, lst_parties)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 273, in query_parties
+    'Error occurred while sending requests to parties')
+ibmfl.exceptions.GlobalTrainingException: Error occurred while sending requests to parties
+2020-10-11 19:25:21,385 -STD __main__ - ERROR - Error occurred while sending requests to parties
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 237, in query_parties
+    perc_quorum=perc_q)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 559, in periodically_verify_quorum
+    'Max-timeout: quorum not reached. Party did not reply in time.')
+ibmfl.exceptions.GlobalTrainingException: Max-timeout: quorum not reached. Party did not reply in time.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\aggregator.py", line 159, in start_training
+    self.fusion.start_global_training()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\iter_avg_fusion_handler.py", line 100, in start_global_training
+    lst_replies = self.query_all_parties(payload)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 198, in query_all_parties
+    lst_model_updates = self.query_parties(payload, lst_parties)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 273, in query_parties
+    'Error occurred while sending requests to parties')
+ibmfl.exceptions.GlobalTrainingException: Error occurred while sending requests to parties
+2020-10-11 19:25:23,437 -STD ibmfl.aggregator.protohandler.proto_handler - ERROR - Error occurred while sending request to party: <ibmfl.aggregator.party_connection.PartyConnection object at 0x00000226747BD978> - HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /14 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000226748ADA90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1287, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1333, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1282, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1042, in _send_output
+    self.send(msg)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 980, in send
+    self.connect()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000226748ADA90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /14 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000226748ADA90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 116, in send_message
+    res_msg = self.connection.send_message(party.info, message)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\connection\flask_connection.py", line 481, in send_message
+    response = self.post(endpoint, path, message, headers, certs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\connection\flask_connection.py", line 396, in post
+    return requests.post(url, data=data, headers=headers, verify=False, cert=certs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /14 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000226748ADA90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+2020-10-11 19:31:37,714 -STD ibmfl.party.party_protocol_handler - ERROR - Unable to load training data from path provided in config file: examples/data/mnist/random\data_party1.npz
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\util\data_handlers\mnist_keras_data_handler.py", line 55, in get_data
+    data_train = np.load(self.file_name)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\numpy\lib\npyio.py", line 428, in load
+    fid = open(os_fspath(file), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'examples/data/mnist/random\\data_party1.npz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\party\party_protocol_handler.py", line 121, in handle_request
+    response = handler(data.get('payload'))
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\party\training\local_training_handler.py", line 65, in train
+    train_data, (_) = self.data_handler.get_data()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\util\data_handlers\mnist_keras_data_handler.py", line 63, in get_data
+    self.file_name)
+OSError: Unable to load training data from path provided in config file: examples/data/mnist/random\data_party1.npz
+2020-10-11 19:32:37,871 -STD ibmfl.aggregator.protohandler.proto_handler - ERROR - Party did not reply in time.
+2020-10-11 19:32:37,880 -STD ibmfl.aggregator.fusion.fusion_handler - ERROR - Max-timeout: quorum not reached. Party did not reply in time.
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 237, in query_parties
+    perc_quorum=perc_q)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 559, in periodically_verify_quorum
+    'Max-timeout: quorum not reached. Party did not reply in time.')
+ibmfl.exceptions.GlobalTrainingException: Max-timeout: quorum not reached. Party did not reply in time.
+2020-10-11 19:32:37,914 -STD __main__ - ERROR - Exception occurred while training.
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 237, in query_parties
+    perc_quorum=perc_q)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 559, in periodically_verify_quorum
+    'Max-timeout: quorum not reached. Party did not reply in time.')
+ibmfl.exceptions.GlobalTrainingException: Max-timeout: quorum not reached. Party did not reply in time.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\aggregator.py", line 159, in start_training
+    self.fusion.start_global_training()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\iter_avg_fusion_handler.py", line 100, in start_global_training
+    lst_replies = self.query_all_parties(payload)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 198, in query_all_parties
+    lst_model_updates = self.query_parties(payload, lst_parties)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 273, in query_parties
+    'Error occurred while sending requests to parties')
+ibmfl.exceptions.GlobalTrainingException: Error occurred while sending requests to parties
+2020-10-11 19:32:37,923 -STD __main__ - ERROR - Error occurred while sending requests to parties
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 237, in query_parties
+    perc_quorum=perc_q)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 559, in periodically_verify_quorum
+    'Max-timeout: quorum not reached. Party did not reply in time.')
+ibmfl.exceptions.GlobalTrainingException: Max-timeout: quorum not reached. Party did not reply in time.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\aggregator.py", line 159, in start_training
+    self.fusion.start_global_training()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\iter_avg_fusion_handler.py", line 100, in start_global_training
+    lst_replies = self.query_all_parties(payload)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 198, in query_all_parties
+    lst_model_updates = self.query_parties(payload, lst_parties)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 273, in query_parties
+    'Error occurred while sending requests to parties')
+ibmfl.exceptions.GlobalTrainingException: Error occurred while sending requests to parties
+2020-10-11 20:04:19,936 -STD ibmfl.aggregator.protohandler.proto_handler - ERROR - Error occurred while sending request to party: <ibmfl.aggregator.party_connection.PartyConnection object at 0x000001D8D10B05F8> - HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /14 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D8D10F6D30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1287, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1333, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1282, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1042, in _send_output
+    self.send(msg)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 980, in send
+    self.connect()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001D8D10F6D30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /14 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D8D10F6D30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 116, in send_message
+    res_msg = self.connection.send_message(party.info, message)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\connection\flask_connection.py", line 481, in send_message
+    response = self.post(endpoint, path, message, headers, certs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\connection\flask_connection.py", line 396, in post
+    return requests.post(url, data=data, headers=headers, verify=False, cert=certs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /14 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D8D10F6D30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))

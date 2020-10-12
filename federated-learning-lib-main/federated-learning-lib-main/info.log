@@ -1,0 +1,1282 @@
+2020-10-11 18:18:44,917 -STD ibmfl.util.config - INFO - Getting details from config file.
+2020-10-11 18:18:58,708 -STD ibmfl.util.config - INFO - No model config provided for this setup.
+2020-10-11 18:19:00,770 -STD ibmfl.util.config - INFO - No local training config provided for this setup.
+2020-10-11 18:19:00,770 -STD ibmfl.connection.flask_connection - INFO - RestSender initialized
+2020-10-11 18:19:00,770 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.START
+2020-10-11 18:19:00,770 -STD ibmfl.connection.flask_connection - INFO - Receiver Initialized
+2020-10-11 18:19:00,770 -STD ibmfl.connection.flask_connection - INFO - Initializing Flask application
+2020-10-11 18:19:00,832 -STD __main__ - INFO - Aggregator initialization successful
+2020-10-11 18:34:25,646 -STD root - INFO - State: States.CLI_WAIT
+2020-10-11 18:34:25,647 -STD __main__ - INFO - Aggregator start successful
+2020-10-11 18:34:25,839 -STD werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-10-11 18:53:34,081 -STD ibmfl.util.config - INFO - Getting config from file
+2020-10-11 18:53:34,082 -STD ibmfl.util.config - INFO - Getting details from config file.
+2020-10-11 18:54:18,714 -STD ibmfl.util.config - INFO - No fusion config provided for this setup.
+2020-10-11 18:54:24,580 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-10-11 18:54:25,077 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2020-10-11 18:54:34,495 -STD ibmfl.connection.flask_connection - INFO - RestSender initialized
+2020-10-11 18:54:34,910 -STD ibmfl.connection.flask_connection - INFO - Receiver Initialized
+2020-10-11 18:54:34,911 -STD ibmfl.connection.flask_connection - INFO - Initializing Flask application
+2020-10-11 18:54:34,944 -STD __main__ - INFO - Party initialization successful
+2020-10-11 18:54:50,687 -STD __main__ - INFO - Party start successful
+2020-10-11 18:54:50,931 -STD werkzeug - INFO -  * Running on http://127.0.0.1:8085/ (Press CTRL+C to quit)
+2020-10-11 18:57:18,782 -STD __main__ - INFO - Registering party...
+2020-10-11 18:57:19,659 -STD ibmfl.connection.flask_connection - INFO - Request received for path :6
+2020-10-11 18:57:20,079 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Adding party with id 396e7330-3b3b-426a-a9b7-e5b26b72ee72
+2020-10-11 18:57:20,208 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 18:57:20] "[37mPOST /6 HTTP/1.1[0m" 200 -
+2020-10-11 18:57:20,238 -STD __main__ - INFO - Registration Successful
+2020-10-11 19:00:22,222 -STD ibmfl.util.config - INFO - Getting config from file
+2020-10-11 19:00:22,224 -STD ibmfl.util.config - INFO - Getting details from config file.
+2020-10-11 19:00:49,343 -STD ibmfl.util.config - INFO - No fusion config provided for this setup.
+2020-10-11 19:00:51,471 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-10-11 19:00:51,701 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2020-10-11 19:00:52,432 -STD ibmfl.connection.flask_connection - INFO - RestSender initialized
+2020-10-11 19:00:52,494 -STD ibmfl.connection.flask_connection - INFO - Receiver Initialized
+2020-10-11 19:00:52,495 -STD ibmfl.connection.flask_connection - INFO - Initializing Flask application
+2020-10-11 19:00:52,504 -STD __main__ - INFO - Party initialization successful
+2020-10-11 19:01:35,583 -STD __main__ - INFO - Party start successful
+2020-10-11 19:01:35,762 -STD werkzeug - INFO -  * Running on http://127.0.0.1:8086/ (Press CTRL+C to quit)
+2020-10-11 19:01:43,934 -STD __main__ - INFO - Registering party...
+2020-10-11 19:01:44,058 -STD ibmfl.connection.flask_connection - INFO - Request received for path :6
+2020-10-11 19:01:44,060 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Adding party with id be949c6f-5f90-409f-8022-3a21ffa234e1
+2020-10-11 19:01:44,061 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:01:44] "[37mPOST /6 HTTP/1.1[0m" 200 -
+2020-10-11 19:01:44,064 -STD __main__ - INFO - Registration Successful
+2020-10-11 19:03:01,079 -STD root - INFO - State: States.PROC_TRAIN
+2020-10-11 19:03:01,142 -STD __main__ - INFO - Initiating Global Training.
+2020-10-11 19:03:01,192 -STD ibmfl.aggregator.fusion.fusion_handler - INFO - Warm start disabled.
+2020-10-11 19:03:01,194 -STD ibmfl.aggregator.fusion.iter_avg_fusion_handler - INFO - Model updateNone
+2020-10-11 19:03:01,232 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.SND_REQ
+2020-10-11 19:03:11,782 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:03:11,785 -STD ibmfl.party.party_protocol_handler - INFO - received a async request
+2020-10-11 19:03:11,787 -STD ibmfl.party.party_protocol_handler - INFO - finished async request
+2020-10-11 19:03:11,788 -STD ibmfl.party.party_protocol_handler - INFO - Handling async request in a separate thread
+2020-10-11 19:03:11,789 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:03:11] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:03:11,790 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 19:03:11,791 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  7
+2020-10-11 19:03:11,792 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 7
+2020-10-11 19:03:11,795 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party1.npz
+2020-10-11 19:03:11,832 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:03:11,837 -STD ibmfl.party.party_protocol_handler - INFO - received a async request
+2020-10-11 19:03:11,840 -STD ibmfl.party.party_protocol_handler - INFO - finished async request
+2020-10-11 19:03:11,841 -STD ibmfl.party.party_protocol_handler - INFO - Handling async request in a separate thread
+2020-10-11 19:03:11,844 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:03:11] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:03:11,845 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 19:03:11,889 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  7
+2020-10-11 19:03:11,891 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 7
+2020-10-11 19:03:11,891 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party0.npz
+2020-10-11 19:03:11,978 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Total number of success responses :2
+2020-10-11 19:03:11,979 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.QUORUM_WAIT
+2020-10-11 19:03:11,981 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:03:11,797 -STD ibmfl.party.party_protocol_handler - ERROR - Unable to load training data from path provided in config file: examples/data/mnist/random\data_party1.npz
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\util\data_handlers\mnist_keras_data_handler.py", line 55, in get_data
+    data_train = np.load(self.file_name)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\numpy\lib\npyio.py", line 428, in load
+    fid = open(os_fspath(file), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'examples/data/mnist/random\\data_party1.npz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\party\party_protocol_handler.py", line 121, in handle_request
+    response = handler(data.get('payload'))
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\party\training\local_training_handler.py", line 65, in train
+    train_data, (_) = self.data_handler.get_data()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\util\data_handlers\mnist_keras_data_handler.py", line 63, in get_data
+    self.file_name)
+OSError: Unable to load training data from path provided in config file: examples/data/mnist/random\data_party1.npz
+2020-10-11 19:03:13,700 -STD ibmfl.party.training.local_training_handler - INFO - No model update was provided.
+2020-10-11 19:03:13,709 -STD ibmfl.party.training.local_training_handler - INFO - Local training started...
+2020-10-11 19:03:13,709 -STD ibmfl.model.keras_fl_model - INFO - Using default hyperparameters:  batch_size:128
+2020-10-11 19:03:13,935 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-10-11 19:03:16,981 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:5
+2020-10-11 19:03:16,981 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:03:21,982 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:10
+2020-10-11 19:03:21,985 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:03:26,988 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:15
+2020-10-11 19:03:26,989 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:03:31,909 -STD ibmfl.party.training.local_training_handler - INFO - Local training done, generating model update...
+2020-10-11 19:03:31,923 -STD ibmfl.party.party_protocol_handler - INFO - successfully finished async request
+2020-10-11 19:03:32,008 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:20
+2020-10-11 19:03:32,009 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:03:32,174 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:03:32,399 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:03:32] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:03:37,031 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:25
+2020-10-11 19:03:37,049 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:03:42,053 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:30
+2020-10-11 19:03:42,054 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:03:47,055 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:35
+2020-10-11 19:03:47,056 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:03:52,057 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:40
+2020-10-11 19:03:52,057 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:03:57,058 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:45
+2020-10-11 19:03:57,058 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:04:02,063 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:50
+2020-10-11 19:04:02,063 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:04:07,108 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:55
+2020-10-11 19:04:07,111 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:04:12,114 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:60
+2020-10-11 19:04:12,114 -STD ibmfl.aggregator.protohandler.proto_handler - ERROR - Party did not reply in time.
+2020-10-11 19:04:12,156 -STD ibmfl.aggregator.fusion.fusion_handler - ERROR - Max-timeout: quorum not reached. Party did not reply in time.
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 237, in query_parties
+    perc_quorum=perc_q)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 559, in periodically_verify_quorum
+    'Max-timeout: quorum not reached. Party did not reply in time.')
+ibmfl.exceptions.GlobalTrainingException: Max-timeout: quorum not reached. Party did not reply in time.
+2020-10-11 19:04:12,326 -STD ibmfl.aggregator.fusion.fusion_handler - INFO - Error occurred when sending queries to parties.
+2020-10-11 19:04:12,327 -STD __main__ - ERROR - Exception occurred while training.
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 237, in query_parties
+    perc_quorum=perc_q)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 559, in periodically_verify_quorum
+    'Max-timeout: quorum not reached. Party did not reply in time.')
+ibmfl.exceptions.GlobalTrainingException: Max-timeout: quorum not reached. Party did not reply in time.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\aggregator.py", line 159, in start_training
+    self.fusion.start_global_training()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\iter_avg_fusion_handler.py", line 100, in start_global_training
+    lst_replies = self.query_all_parties(payload)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 198, in query_all_parties
+    lst_model_updates = self.query_parties(payload, lst_parties)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 273, in query_parties
+    'Error occurred while sending requests to parties')
+ibmfl.exceptions.GlobalTrainingException: Error occurred while sending requests to parties
+2020-10-11 19:04:12,407 -STD __main__ - ERROR - Error occurred while sending requests to parties
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 237, in query_parties
+    perc_quorum=perc_q)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 559, in periodically_verify_quorum
+    'Max-timeout: quorum not reached. Party did not reply in time.')
+ibmfl.exceptions.GlobalTrainingException: Max-timeout: quorum not reached. Party did not reply in time.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\aggregator.py", line 159, in start_training
+    self.fusion.start_global_training()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\iter_avg_fusion_handler.py", line 100, in start_global_training
+    lst_replies = self.query_all_parties(payload)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 198, in query_all_parties
+    lst_model_updates = self.query_parties(payload, lst_parties)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 273, in query_parties
+    'Error occurred while sending requests to parties')
+ibmfl.exceptions.GlobalTrainingException: Error occurred while sending requests to parties
+2020-10-11 19:04:12,419 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.SND_REQ
+2020-10-11 19:04:12,489 -STD ibmfl.connection.flask_connection - INFO - Request received for path :14
+2020-10-11 19:04:12,493 -STD ibmfl.connection.flask_connection - INFO - Request received for path :14
+2020-10-11 19:04:12,494 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 19:04:12,498 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  14
+2020-10-11 19:04:12,506 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 19:04:12,504 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 14
+2020-10-11 19:04:12,507 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  14
+2020-10-11 19:04:12,509 -STD ibmfl.party.party_protocol_handler - INFO - received a STOP request
+2020-10-11 19:04:12,512 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 14
+2020-10-11 19:04:12,521 -STD ibmfl.party.party_protocol_handler - INFO - received a STOP request
+2020-10-11 19:04:12,519 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:04:12] "[37mPOST /14 HTTP/1.1[0m" 200 -
+2020-10-11 19:04:12,537 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:04:12] "[37mPOST /14 HTTP/1.1[0m" 200 -
+2020-10-11 19:04:12,667 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Total number of success responses :2
+2020-10-11 19:04:12,668 -STD ibmfl.connection.flask_connection - INFO - Stopping Receiver and Sender
+2020-10-11 19:04:12,704 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:04:12] "[37mPOST /shutdown HTTP/1.1[0m" 200 -
+2020-10-11 19:04:12,713 -STD __main__ - INFO - Aggregator stop successful
+2020-10-11 19:15:51,577 -STD ibmfl.util.config - INFO - Getting details from config file.
+2020-10-11 19:16:16,793 -STD ibmfl.util.config - INFO - No model config provided for this setup.
+2020-10-11 19:16:18,301 -STD ibmfl.util.config - INFO - No local training config provided for this setup.
+2020-10-11 19:16:18,302 -STD ibmfl.connection.flask_connection - INFO - RestSender initialized
+2020-10-11 19:16:18,302 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.START
+2020-10-11 19:16:18,303 -STD ibmfl.connection.flask_connection - INFO - Receiver Initialized
+2020-10-11 19:16:18,304 -STD ibmfl.connection.flask_connection - INFO - Initializing Flask application
+2020-10-11 19:16:18,316 -STD __main__ - INFO - Aggregator initialization successful
+2020-10-11 19:16:27,863 -STD root - INFO - State: States.CLI_WAIT
+2020-10-11 19:16:27,864 -STD __main__ - INFO - Aggregator start successful
+2020-10-11 19:16:28,024 -STD werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-10-11 19:16:52,672 -STD __main__ - INFO - Registering party...
+2020-10-11 19:16:52,682 -STD ibmfl.connection.flask_connection - INFO - Request received for path :6
+2020-10-11 19:16:52,684 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Adding party with id b034ca57-14a1-40a3-b932-d6323c2900d0
+2020-10-11 19:16:52,686 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:16:52] "[37mPOST /6 HTTP/1.1[0m" 200 -
+2020-10-11 19:16:52,690 -STD __main__ - INFO - Registration Successful
+2020-10-11 19:16:52,691 -STD ibmfl.connection.flask_connection - INFO - Stopping Receiver and Sender
+2020-10-11 19:16:52,701 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:16:52] "[37mPOST /shutdown HTTP/1.1[0m" 200 -
+2020-10-11 19:16:52,705 -STD __main__ - INFO - Party stop successful
+2020-10-11 19:17:42,305 -STD ibmfl.util.config - INFO - Getting config from file
+2020-10-11 19:17:42,306 -STD ibmfl.util.config - INFO - Getting details from config file.
+2020-10-11 19:17:50,181 -STD ibmfl.util.config - INFO - No fusion config provided for this setup.
+2020-10-11 19:17:51,252 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-10-11 19:17:51,478 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2020-10-11 19:17:52,217 -STD ibmfl.connection.flask_connection - INFO - RestSender initialized
+2020-10-11 19:17:52,272 -STD ibmfl.connection.flask_connection - INFO - Receiver Initialized
+2020-10-11 19:17:52,276 -STD ibmfl.connection.flask_connection - INFO - Initializing Flask application
+2020-10-11 19:17:52,294 -STD __main__ - INFO - Party initialization successful
+2020-10-11 19:17:59,535 -STD __main__ - INFO - Registering party...
+2020-10-11 19:17:59,594 -STD ibmfl.connection.flask_connection - INFO - Request received for path :6
+2020-10-11 19:17:59,596 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Adding party with id 4952eb78-cfd5-41eb-b4e5-0ed1ad3947a3
+2020-10-11 19:17:59,598 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:17:59] "[37mPOST /6 HTTP/1.1[0m" 200 -
+2020-10-11 19:17:59,602 -STD __main__ - INFO - Registration Successful
+2020-10-11 19:18:48,319 -STD __main__ - INFO - Registering party...
+2020-10-11 19:18:48,332 -STD ibmfl.connection.flask_connection - INFO - Request received for path :6
+2020-10-11 19:18:48,333 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Adding party with id 1107613d-6268-44d1-95e1-9d40d8b5e6ee
+2020-10-11 19:18:48,335 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:18:48] "[37mPOST /6 HTTP/1.1[0m" 200 -
+2020-10-11 19:18:48,339 -STD __main__ - INFO - Registration Successful
+2020-10-11 19:18:48,340 -STD ibmfl.connection.flask_connection - INFO - Stopping Receiver and Sender
+2020-10-11 19:18:48,351 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:18:48] "[37mPOST /shutdown HTTP/1.1[0m" 200 -
+2020-10-11 19:18:48,355 -STD __main__ - INFO - Party stop successful
+2020-10-11 19:19:08,219 -STD ibmfl.util.config - INFO - Getting config from file
+2020-10-11 19:19:08,220 -STD ibmfl.util.config - INFO - Getting details from config file.
+2020-10-11 19:19:16,721 -STD ibmfl.util.config - INFO - No fusion config provided for this setup.
+2020-10-11 19:19:17,755 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-10-11 19:19:18,003 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2020-10-11 19:19:18,613 -STD ibmfl.connection.flask_connection - INFO - RestSender initialized
+2020-10-11 19:19:18,646 -STD ibmfl.connection.flask_connection - INFO - Receiver Initialized
+2020-10-11 19:19:18,653 -STD ibmfl.connection.flask_connection - INFO - Initializing Flask application
+2020-10-11 19:19:18,667 -STD __main__ - INFO - Party initialization successful
+2020-10-11 19:19:53,176 -STD __main__ - INFO - Party start successful
+2020-10-11 19:19:53,207 -STD werkzeug - INFO -  * Running on http://127.0.0.1:8086/ (Press CTRL+C to quit)
+2020-10-11 19:20:03,464 -STD __main__ - INFO - Registering party...
+2020-10-11 19:20:03,487 -STD ibmfl.connection.flask_connection - INFO - Request received for path :6
+2020-10-11 19:20:03,489 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Adding party with id df71eb97-0ae9-4d15-9afa-3da06abca059
+2020-10-11 19:20:03,490 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:20:03] "[37mPOST /6 HTTP/1.1[0m" 200 -
+2020-10-11 19:20:03,496 -STD __main__ - INFO - Registration Successful
+2020-10-11 19:24:18,824 -STD root - INFO - State: States.PROC_TRAIN
+2020-10-11 19:24:18,824 -STD __main__ - INFO - Initiating Global Training.
+2020-10-11 19:24:18,825 -STD ibmfl.aggregator.fusion.fusion_handler - INFO - Warm start disabled.
+2020-10-11 19:24:18,825 -STD ibmfl.aggregator.fusion.iter_avg_fusion_handler - INFO - Model updateNone
+2020-10-11 19:24:18,825 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.SND_REQ
+2020-10-11 19:24:19,005 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:24:19,008 -STD ibmfl.party.party_protocol_handler - INFO - received a async request
+2020-10-11 19:24:19,010 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:24:19,010 -STD ibmfl.party.party_protocol_handler - INFO - finished async request
+2020-10-11 19:24:19,011 -STD ibmfl.party.party_protocol_handler - INFO - Handling async request in a separate thread
+2020-10-11 19:24:19,012 -STD ibmfl.party.party_protocol_handler - INFO - received a async request
+2020-10-11 19:24:19,022 -STD ibmfl.party.party_protocol_handler - INFO - finished async request
+2020-10-11 19:24:19,015 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 19:24:19,027 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  7
+2020-10-11 19:24:19,025 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:24:19] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:24:19,014 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:24:19] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:24:19,028 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 7
+2020-10-11 19:24:19,042 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party1.npz
+2020-10-11 19:24:19,044 -STD ibmfl.party.party_protocol_handler - ERROR - Unable to load training data from path provided in config file: examples/data/mnist/random\data_party1.npz
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\util\data_handlers\mnist_keras_data_handler.py", line 55, in get_data
+    data_train = np.load(self.file_name)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\numpy\lib\npyio.py", line 428, in load
+    fid = open(os_fspath(file), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'examples/data/mnist/random\\data_party1.npz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\party\party_protocol_handler.py", line 121, in handle_request
+    response = handler(data.get('payload'))
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\party\training\local_training_handler.py", line 65, in train
+    train_data, (_) = self.data_handler.get_data()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\util\data_handlers\mnist_keras_data_handler.py", line 63, in get_data
+    self.file_name)
+OSError: Unable to load training data from path provided in config file: examples/data/mnist/random\data_party1.npz
+2020-10-11 19:24:21,023 -STD ibmfl.aggregator.protohandler.proto_handler - ERROR - Error occurred while sending request to party: <ibmfl.aggregator.party_connection.PartyConnection object at 0x00000226747BD668> - HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /7 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000226747FBF28>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1287, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1333, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1282, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1042, in _send_output
+    self.send(msg)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 980, in send
+    self.connect()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000226747FBF28>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /7 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000226747FBF28>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 116, in send_message
+    res_msg = self.connection.send_message(party.info, message)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\connection\flask_connection.py", line 481, in send_message
+    response = self.post(endpoint, path, message, headers, certs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\connection\flask_connection.py", line 396, in post
+    return requests.post(url, data=data, headers=headers, verify=False, cert=certs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /7 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000226747FBF28>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+2020-10-11 19:24:21,024 -STD ibmfl.aggregator.protohandler.proto_handler - ERROR - Error occurred while sending request to party: <ibmfl.aggregator.party_connection.PartyConnection object at 0x00000226747BD978> - HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /7 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022674812390>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1287, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1333, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1282, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1042, in _send_output
+    self.send(msg)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 980, in send
+    self.connect()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000022674812390>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /7 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022674812390>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 116, in send_message
+    res_msg = self.connection.send_message(party.info, message)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\connection\flask_connection.py", line 481, in send_message
+    response = self.post(endpoint, path, message, headers, certs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\connection\flask_connection.py", line 396, in post
+    return requests.post(url, data=data, headers=headers, verify=False, cert=certs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /7 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022674812390>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+2020-10-11 19:24:21,204 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Total number of success responses :2
+2020-10-11 19:24:21,205 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.QUORUM_WAIT
+2020-10-11 19:24:21,209 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 4
+2020-10-11 19:24:26,211 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:5
+2020-10-11 19:24:26,212 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 4
+2020-10-11 19:24:31,219 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:10
+2020-10-11 19:24:31,219 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 4
+2020-10-11 19:24:36,225 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:15
+2020-10-11 19:24:36,228 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 4
+2020-10-11 19:24:41,230 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:20
+2020-10-11 19:24:41,230 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 4
+2020-10-11 19:24:46,238 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:25
+2020-10-11 19:24:46,238 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 4
+2020-10-11 19:24:51,270 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:30
+2020-10-11 19:24:51,270 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 4
+2020-10-11 19:24:56,275 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:35
+2020-10-11 19:24:56,276 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 4
+2020-10-11 19:25:01,280 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:40
+2020-10-11 19:25:01,281 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 4
+2020-10-11 19:25:06,286 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:45
+2020-10-11 19:25:06,287 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 4
+2020-10-11 19:25:11,291 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:50
+2020-10-11 19:25:11,294 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 4
+2020-10-11 19:25:16,300 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:55
+2020-10-11 19:25:16,301 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 4
+2020-10-11 19:25:21,305 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:60
+2020-10-11 19:25:21,306 -STD ibmfl.aggregator.protohandler.proto_handler - ERROR - Party did not reply in time.
+2020-10-11 19:25:21,312 -STD ibmfl.aggregator.fusion.fusion_handler - ERROR - Max-timeout: quorum not reached. Party did not reply in time.
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 237, in query_parties
+    perc_quorum=perc_q)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 559, in periodically_verify_quorum
+    'Max-timeout: quorum not reached. Party did not reply in time.')
+ibmfl.exceptions.GlobalTrainingException: Max-timeout: quorum not reached. Party did not reply in time.
+2020-10-11 19:25:21,362 -STD ibmfl.aggregator.fusion.fusion_handler - INFO - Error occurred when sending queries to parties.
+2020-10-11 19:25:21,367 -STD __main__ - ERROR - Exception occurred while training.
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 237, in query_parties
+    perc_quorum=perc_q)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 559, in periodically_verify_quorum
+    'Max-timeout: quorum not reached. Party did not reply in time.')
+ibmfl.exceptions.GlobalTrainingException: Max-timeout: quorum not reached. Party did not reply in time.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\aggregator.py", line 159, in start_training
+    self.fusion.start_global_training()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\iter_avg_fusion_handler.py", line 100, in start_global_training
+    lst_replies = self.query_all_parties(payload)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 198, in query_all_parties
+    lst_model_updates = self.query_parties(payload, lst_parties)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 273, in query_parties
+    'Error occurred while sending requests to parties')
+ibmfl.exceptions.GlobalTrainingException: Error occurred while sending requests to parties
+2020-10-11 19:25:21,385 -STD __main__ - ERROR - Error occurred while sending requests to parties
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 237, in query_parties
+    perc_quorum=perc_q)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 559, in periodically_verify_quorum
+    'Max-timeout: quorum not reached. Party did not reply in time.')
+ibmfl.exceptions.GlobalTrainingException: Max-timeout: quorum not reached. Party did not reply in time.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\aggregator.py", line 159, in start_training
+    self.fusion.start_global_training()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\iter_avg_fusion_handler.py", line 100, in start_global_training
+    lst_replies = self.query_all_parties(payload)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 198, in query_all_parties
+    lst_model_updates = self.query_parties(payload, lst_parties)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 273, in query_parties
+    'Error occurred while sending requests to parties')
+ibmfl.exceptions.GlobalTrainingException: Error occurred while sending requests to parties
+2020-10-11 19:25:21,395 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.SND_REQ
+2020-10-11 19:25:21,437 -STD ibmfl.connection.flask_connection - INFO - Request received for path :14
+2020-10-11 19:25:21,442 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 19:25:21,447 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  14
+2020-10-11 19:25:21,453 -STD ibmfl.connection.flask_connection - INFO - Request received for path :14
+2020-10-11 19:25:21,454 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 14
+2020-10-11 19:25:21,457 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 19:25:21,459 -STD ibmfl.party.party_protocol_handler - INFO - received a STOP request
+2020-10-11 19:25:21,460 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  14
+2020-10-11 19:25:21,462 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:25:21] "[37mPOST /14 HTTP/1.1[0m" 200 -
+2020-10-11 19:25:21,466 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 14
+2020-10-11 19:25:21,473 -STD ibmfl.party.party_protocol_handler - INFO - received a STOP request
+2020-10-11 19:25:21,475 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:25:21] "[37mPOST /14 HTTP/1.1[0m" 200 -
+2020-10-11 19:25:23,437 -STD ibmfl.aggregator.protohandler.proto_handler - ERROR - Error occurred while sending request to party: <ibmfl.aggregator.party_connection.PartyConnection object at 0x00000226747BD978> - HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /14 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000226748ADA90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1287, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1333, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1282, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1042, in _send_output
+    self.send(msg)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 980, in send
+    self.connect()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000226748ADA90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /14 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000226748ADA90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 116, in send_message
+    res_msg = self.connection.send_message(party.info, message)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\connection\flask_connection.py", line 481, in send_message
+    response = self.post(endpoint, path, message, headers, certs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\connection\flask_connection.py", line 396, in post
+    return requests.post(url, data=data, headers=headers, verify=False, cert=certs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /14 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000226748ADA90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+2020-10-11 19:25:23,531 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Total number of success responses :2
+2020-10-11 19:25:23,549 -STD ibmfl.connection.flask_connection - INFO - Stopping Receiver and Sender
+2020-10-11 19:25:23,566 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:25:23] "[37mPOST /shutdown HTTP/1.1[0m" 200 -
+2020-10-11 19:25:23,575 -STD __main__ - INFO - Aggregator stop successful
+2020-10-11 19:27:00,487 -STD __main__ - INFO - Registering party...
+2020-10-11 19:28:18,596 -STD ibmfl.util.config - INFO - Getting details from config file.
+2020-10-11 19:28:26,777 -STD ibmfl.util.config - INFO - No model config provided for this setup.
+2020-10-11 19:28:27,800 -STD ibmfl.util.config - INFO - No local training config provided for this setup.
+2020-10-11 19:28:27,801 -STD ibmfl.connection.flask_connection - INFO - RestSender initialized
+2020-10-11 19:28:27,804 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.START
+2020-10-11 19:28:27,806 -STD ibmfl.connection.flask_connection - INFO - Receiver Initialized
+2020-10-11 19:28:27,809 -STD ibmfl.connection.flask_connection - INFO - Initializing Flask application
+2020-10-11 19:28:27,826 -STD __main__ - INFO - Aggregator initialization successful
+2020-10-11 19:28:35,335 -STD root - INFO - State: States.CLI_WAIT
+2020-10-11 19:28:35,337 -STD __main__ - INFO - Aggregator start successful
+2020-10-11 19:28:35,377 -STD werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-10-11 19:28:49,487 -STD __main__ - INFO - Registering party...
+2020-10-11 19:28:49,496 -STD ibmfl.connection.flask_connection - INFO - Request received for path :6
+2020-10-11 19:28:49,499 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Adding party with id 958b5b82-b69d-48ce-a6a4-cd91adf6273e
+2020-10-11 19:28:49,506 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:28:49] "[37mPOST /6 HTTP/1.1[0m" 200 -
+2020-10-11 19:28:49,511 -STD __main__ - INFO - Registration Successful
+2020-10-11 19:28:49,512 -STD ibmfl.connection.flask_connection - INFO - Stopping Receiver and Sender
+2020-10-11 19:28:49,527 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:28:49] "[37mPOST /shutdown HTTP/1.1[0m" 200 -
+2020-10-11 19:28:49,530 -STD __main__ - INFO - Party stop successful
+2020-10-11 19:29:25,915 -STD ibmfl.util.config - INFO - Getting config from file
+2020-10-11 19:29:25,915 -STD ibmfl.util.config - INFO - Getting details from config file.
+2020-10-11 19:29:33,505 -STD ibmfl.util.config - INFO - No fusion config provided for this setup.
+2020-10-11 19:29:34,388 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-10-11 19:29:34,608 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2020-10-11 19:29:35,162 -STD ibmfl.connection.flask_connection - INFO - RestSender initialized
+2020-10-11 19:29:35,170 -STD ibmfl.connection.flask_connection - INFO - Receiver Initialized
+2020-10-11 19:29:35,170 -STD ibmfl.connection.flask_connection - INFO - Initializing Flask application
+2020-10-11 19:29:35,182 -STD __main__ - INFO - Party initialization successful
+2020-10-11 19:29:43,823 -STD __main__ - INFO - Party start successful
+2020-10-11 19:29:43,863 -STD werkzeug - INFO -  * Running on http://127.0.0.1:8085/ (Press CTRL+C to quit)
+2020-10-11 19:29:55,114 -STD ibmfl.util.config - INFO - Getting config from file
+2020-10-11 19:29:55,115 -STD ibmfl.util.config - INFO - Getting details from config file.
+2020-10-11 19:30:02,886 -STD ibmfl.util.config - INFO - No fusion config provided for this setup.
+2020-10-11 19:30:03,742 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-10-11 19:30:03,984 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2020-10-11 19:30:04,586 -STD ibmfl.connection.flask_connection - INFO - RestSender initialized
+2020-10-11 19:30:04,597 -STD ibmfl.connection.flask_connection - INFO - Receiver Initialized
+2020-10-11 19:30:04,598 -STD ibmfl.connection.flask_connection - INFO - Initializing Flask application
+2020-10-11 19:30:04,609 -STD __main__ - INFO - Party initialization successful
+2020-10-11 19:30:21,745 -STD __main__ - INFO - Party start successful
+2020-10-11 19:30:21,781 -STD werkzeug - INFO -  * Running on http://127.0.0.1:8086/ (Press CTRL+C to quit)
+2020-10-11 19:31:09,951 -STD __main__ - INFO - Registering party...
+2020-10-11 19:31:09,968 -STD ibmfl.connection.flask_connection - INFO - Request received for path :6
+2020-10-11 19:31:09,970 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Adding party with id 4a4b1e8b-79ff-46da-aafc-550be30a3ade
+2020-10-11 19:31:09,974 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:31:09] "[37mPOST /6 HTTP/1.1[0m" 200 -
+2020-10-11 19:31:09,983 -STD __main__ - INFO - Registration Successful
+2020-10-11 19:31:23,583 -STD __main__ - INFO - Registering party...
+2020-10-11 19:31:23,610 -STD ibmfl.connection.flask_connection - INFO - Request received for path :6
+2020-10-11 19:31:23,612 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Adding party with id d8440b10-a1c7-4ac1-b121-28182d60a786
+2020-10-11 19:31:23,617 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:31:23] "[37mPOST /6 HTTP/1.1[0m" 200 -
+2020-10-11 19:31:23,624 -STD __main__ - INFO - Registration Successful
+2020-10-11 19:31:37,450 -STD root - INFO - State: States.PROC_TRAIN
+2020-10-11 19:31:37,453 -STD __main__ - INFO - Initiating Global Training.
+2020-10-11 19:31:37,458 -STD ibmfl.aggregator.fusion.fusion_handler - INFO - Warm start disabled.
+2020-10-11 19:31:37,460 -STD ibmfl.aggregator.fusion.iter_avg_fusion_handler - INFO - Model updateNone
+2020-10-11 19:31:37,461 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.SND_REQ
+2020-10-11 19:31:37,654 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:31:37,655 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:31:37,657 -STD ibmfl.party.party_protocol_handler - INFO - received a async request
+2020-10-11 19:31:37,658 -STD ibmfl.party.party_protocol_handler - INFO - finished async request
+2020-10-11 19:31:37,659 -STD ibmfl.party.party_protocol_handler - INFO - Handling async request in a separate thread
+2020-10-11 19:31:37,661 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:31:37,661 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:31:37] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:31:37,662 -STD ibmfl.party.party_protocol_handler - INFO - finished async request
+2020-10-11 19:31:37,663 -STD ibmfl.party.party_protocol_handler - INFO - Handling async request in a separate thread
+2020-10-11 19:31:37,662 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 19:31:37,664 -STD ibmfl.party.party_protocol_handler - INFO - received a async request
+2020-10-11 19:31:37,670 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  7
+2020-10-11 19:31:37,668 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:31:37] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:31:37,673 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 7
+2020-10-11 19:31:37,669 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 19:31:37,677 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party0.npz
+2020-10-11 19:31:37,678 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  7
+2020-10-11 19:31:37,672 -STD ibmfl.party.party_protocol_handler - INFO - finished async request
+2020-10-11 19:31:37,694 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 7
+2020-10-11 19:31:37,702 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:31:37] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:31:37,704 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party1.npz
+2020-10-11 19:31:37,714 -STD ibmfl.party.party_protocol_handler - ERROR - Unable to load training data from path provided in config file: examples/data/mnist/random\data_party1.npz
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\util\data_handlers\mnist_keras_data_handler.py", line 55, in get_data
+    data_train = np.load(self.file_name)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\numpy\lib\npyio.py", line 428, in load
+    fid = open(os_fspath(file), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'examples/data/mnist/random\\data_party1.npz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\party\party_protocol_handler.py", line 121, in handle_request
+    response = handler(data.get('payload'))
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\party\training\local_training_handler.py", line 65, in train
+    train_data, (_) = self.data_handler.get_data()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\util\data_handlers\mnist_keras_data_handler.py", line 63, in get_data
+    self.file_name)
+OSError: Unable to load training data from path provided in config file: examples/data/mnist/random\data_party1.npz
+2020-10-11 19:31:37,748 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Total number of success responses :3
+2020-10-11 19:31:37,749 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.QUORUM_WAIT
+2020-10-11 19:31:37,750 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 3
+2020-10-11 19:31:38,216 -STD ibmfl.party.training.local_training_handler - INFO - No model update was provided.
+2020-10-11 19:31:38,218 -STD ibmfl.party.training.local_training_handler - INFO - Local training started...
+2020-10-11 19:31:38,219 -STD ibmfl.model.keras_fl_model - INFO - Using default hyperparameters:  batch_size:128
+2020-10-11 19:31:38,345 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-10-11 19:31:42,767 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:5
+2020-10-11 19:31:42,786 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 3
+2020-10-11 19:31:46,473 -STD ibmfl.party.training.local_training_handler - INFO - Local training done, generating model update...
+2020-10-11 19:31:46,489 -STD ibmfl.party.party_protocol_handler - INFO - successfully finished async request
+2020-10-11 19:31:46,685 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:31:46,908 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:31:46] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:31:47,809 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:10
+2020-10-11 19:31:47,810 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 3
+2020-10-11 19:31:52,815 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:15
+2020-10-11 19:31:52,816 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 3
+2020-10-11 19:31:57,821 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:20
+2020-10-11 19:31:57,822 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 3
+2020-10-11 19:32:02,829 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:25
+2020-10-11 19:32:02,830 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 3
+2020-10-11 19:32:07,834 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:30
+2020-10-11 19:32:07,835 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 3
+2020-10-11 19:32:12,839 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:35
+2020-10-11 19:32:12,839 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 3
+2020-10-11 19:32:17,844 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:40
+2020-10-11 19:32:17,844 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 3
+2020-10-11 19:32:22,849 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:45
+2020-10-11 19:32:22,849 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 3
+2020-10-11 19:32:27,855 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:50
+2020-10-11 19:32:27,861 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 3
+2020-10-11 19:32:32,864 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:55
+2020-10-11 19:32:32,864 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 3
+2020-10-11 19:32:37,870 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:60
+2020-10-11 19:32:37,871 -STD ibmfl.aggregator.protohandler.proto_handler - ERROR - Party did not reply in time.
+2020-10-11 19:32:37,880 -STD ibmfl.aggregator.fusion.fusion_handler - ERROR - Max-timeout: quorum not reached. Party did not reply in time.
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 237, in query_parties
+    perc_quorum=perc_q)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 559, in periodically_verify_quorum
+    'Max-timeout: quorum not reached. Party did not reply in time.')
+ibmfl.exceptions.GlobalTrainingException: Max-timeout: quorum not reached. Party did not reply in time.
+2020-10-11 19:32:37,912 -STD ibmfl.aggregator.fusion.fusion_handler - INFO - Error occurred when sending queries to parties.
+2020-10-11 19:32:37,914 -STD __main__ - ERROR - Exception occurred while training.
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 237, in query_parties
+    perc_quorum=perc_q)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 559, in periodically_verify_quorum
+    'Max-timeout: quorum not reached. Party did not reply in time.')
+ibmfl.exceptions.GlobalTrainingException: Max-timeout: quorum not reached. Party did not reply in time.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\aggregator.py", line 159, in start_training
+    self.fusion.start_global_training()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\iter_avg_fusion_handler.py", line 100, in start_global_training
+    lst_replies = self.query_all_parties(payload)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 198, in query_all_parties
+    lst_model_updates = self.query_parties(payload, lst_parties)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 273, in query_parties
+    'Error occurred while sending requests to parties')
+ibmfl.exceptions.GlobalTrainingException: Error occurred while sending requests to parties
+2020-10-11 19:32:37,923 -STD __main__ - ERROR - Error occurred while sending requests to parties
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 237, in query_parties
+    perc_quorum=perc_q)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 559, in periodically_verify_quorum
+    'Max-timeout: quorum not reached. Party did not reply in time.')
+ibmfl.exceptions.GlobalTrainingException: Max-timeout: quorum not reached. Party did not reply in time.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\aggregator.py", line 159, in start_training
+    self.fusion.start_global_training()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\iter_avg_fusion_handler.py", line 100, in start_global_training
+    lst_replies = self.query_all_parties(payload)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 198, in query_all_parties
+    lst_model_updates = self.query_parties(payload, lst_parties)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\fusion\fusion_handler.py", line 273, in query_parties
+    'Error occurred while sending requests to parties')
+ibmfl.exceptions.GlobalTrainingException: Error occurred while sending requests to parties
+2020-10-11 19:32:38,016 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.SND_REQ
+2020-10-11 19:32:38,050 -STD ibmfl.connection.flask_connection - INFO - Request received for path :14
+2020-10-11 19:32:38,050 -STD ibmfl.connection.flask_connection - INFO - Request received for path :14
+2020-10-11 19:32:38,056 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 19:32:38,057 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 19:32:38,065 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  14
+2020-10-11 19:32:38,067 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  14
+2020-10-11 19:32:38,070 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 14
+2020-10-11 19:32:38,073 -STD ibmfl.party.party_protocol_handler - INFO - received a STOP request
+2020-10-11 19:32:38,068 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 14
+2020-10-11 19:32:38,085 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:32:38] "[37mPOST /14 HTTP/1.1[0m" 200 -
+2020-10-11 19:32:38,070 -STD ibmfl.connection.flask_connection - INFO - Request received for path :14
+2020-10-11 19:32:38,086 -STD ibmfl.party.party_protocol_handler - INFO - received a STOP request
+2020-10-11 19:32:38,099 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 19:32:38,102 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:32:38] "[37mPOST /14 HTTP/1.1[0m" 200 -
+2020-10-11 19:32:38,103 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  14
+2020-10-11 19:32:38,114 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 14
+2020-10-11 19:32:38,115 -STD ibmfl.party.party_protocol_handler - INFO - received a STOP request
+2020-10-11 19:32:38,124 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:32:38] "[37mPOST /14 HTTP/1.1[0m" 200 -
+2020-10-11 19:32:38,227 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Total number of success responses :3
+2020-10-11 19:32:38,228 -STD ibmfl.connection.flask_connection - INFO - Stopping Receiver and Sender
+2020-10-11 19:32:38,250 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:32:38] "[37mPOST /shutdown HTTP/1.1[0m" 200 -
+2020-10-11 19:32:38,263 -STD __main__ - INFO - Aggregator stop successful
+2020-10-11 19:35:34,370 -STD ibmfl.util.config - INFO - Getting details from config file.
+2020-10-11 19:35:42,742 -STD ibmfl.util.config - INFO - No model config provided for this setup.
+2020-10-11 19:35:43,627 -STD ibmfl.util.config - INFO - No local training config provided for this setup.
+2020-10-11 19:35:43,628 -STD ibmfl.connection.flask_connection - INFO - RestSender initialized
+2020-10-11 19:35:43,628 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.START
+2020-10-11 19:35:43,629 -STD ibmfl.connection.flask_connection - INFO - Receiver Initialized
+2020-10-11 19:35:43,629 -STD ibmfl.connection.flask_connection - INFO - Initializing Flask application
+2020-10-11 19:35:43,641 -STD __main__ - INFO - Aggregator initialization successful
+2020-10-11 19:35:45,551 -STD __main__ - INFO - Registering party...
+2020-10-11 19:36:30,079 -STD root - INFO - State: States.CLI_WAIT
+2020-10-11 19:36:30,081 -STD __main__ - INFO - Aggregator start successful
+2020-10-11 19:36:30,115 -STD werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-10-11 19:40:04,129 -STD ibmfl.util.config - INFO - Getting config from file
+2020-10-11 19:40:04,130 -STD ibmfl.util.config - INFO - Getting details from config file.
+2020-10-11 19:40:11,225 -STD ibmfl.util.config - INFO - No fusion config provided for this setup.
+2020-10-11 19:40:12,110 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-10-11 19:40:12,329 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2020-10-11 19:40:12,944 -STD ibmfl.connection.flask_connection - INFO - RestSender initialized
+2020-10-11 19:40:12,953 -STD ibmfl.connection.flask_connection - INFO - Receiver Initialized
+2020-10-11 19:40:12,953 -STD ibmfl.connection.flask_connection - INFO - Initializing Flask application
+2020-10-11 19:40:12,962 -STD __main__ - INFO - Party initialization successful
+2020-10-11 19:41:39,966 -STD ibmfl.util.config - INFO - Getting config from file
+2020-10-11 19:41:39,966 -STD ibmfl.util.config - INFO - Getting details from config file.
+2020-10-11 19:41:46,984 -STD ibmfl.util.config - INFO - No fusion config provided for this setup.
+2020-10-11 19:41:47,898 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-10-11 19:41:48,131 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2020-10-11 19:41:48,687 -STD ibmfl.connection.flask_connection - INFO - RestSender initialized
+2020-10-11 19:41:48,695 -STD ibmfl.connection.flask_connection - INFO - Receiver Initialized
+2020-10-11 19:41:48,695 -STD ibmfl.connection.flask_connection - INFO - Initializing Flask application
+2020-10-11 19:41:48,705 -STD __main__ - INFO - Party initialization successful
+2020-10-11 19:43:20,706 -STD __main__ - INFO - Party start successful
+2020-10-11 19:43:20,744 -STD werkzeug - INFO -  * Running on http://127.0.0.1:8085/ (Press CTRL+C to quit)
+2020-10-11 19:43:38,008 -STD __main__ - INFO - Party start successful
+2020-10-11 19:43:38,029 -STD werkzeug - INFO -  * Running on http://127.0.0.1:8086/ (Press CTRL+C to quit)
+2020-10-11 19:44:08,734 -STD __main__ - INFO - Registering party...
+2020-10-11 19:44:08,791 -STD ibmfl.connection.flask_connection - INFO - Request received for path :6
+2020-10-11 19:44:08,795 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Adding party with id 46e9e5c9-c075-48d5-ad98-be31d71f53c5
+2020-10-11 19:44:08,795 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:44:08] "[37mPOST /6 HTTP/1.1[0m" 200 -
+2020-10-11 19:44:08,795 -STD __main__ - INFO - Registration Successful
+2020-10-11 19:44:29,590 -STD __main__ - INFO - Registering party...
+2020-10-11 19:44:29,607 -STD ibmfl.connection.flask_connection - INFO - Request received for path :6
+2020-10-11 19:44:29,607 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Adding party with id cfe7399f-1d84-437d-9638-f3068e97ad8c
+2020-10-11 19:44:29,607 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:44:29] "[37mPOST /6 HTTP/1.1[0m" 200 -
+2020-10-11 19:44:29,607 -STD __main__ - INFO - Registration Successful
+2020-10-11 19:44:49,287 -STD root - INFO - State: States.PROC_TRAIN
+2020-10-11 19:44:49,287 -STD __main__ - INFO - Initiating Global Training.
+2020-10-11 19:44:49,287 -STD ibmfl.aggregator.fusion.fusion_handler - INFO - Warm start disabled.
+2020-10-11 19:44:49,297 -STD ibmfl.aggregator.fusion.iter_avg_fusion_handler - INFO - Model updateNone
+2020-10-11 19:44:49,297 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.SND_REQ
+2020-10-11 19:44:49,461 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:44:49,461 -STD ibmfl.party.party_protocol_handler - INFO - received a async request
+2020-10-11 19:44:49,461 -STD ibmfl.party.party_protocol_handler - INFO - finished async request
+2020-10-11 19:44:49,461 -STD ibmfl.party.party_protocol_handler - INFO - Handling async request in a separate thread
+2020-10-11 19:44:49,469 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:44:49] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:44:49,469 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:44:49] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:44:49,469 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 19:44:49,469 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  7
+2020-10-11 19:44:49,469 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 19:44:49,477 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  7
+2020-10-11 19:44:49,469 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 7
+2020-10-11 19:44:49,491 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party0.npz
+2020-10-11 19:44:49,491 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 7
+2020-10-11 19:44:49,491 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party1.npz
+2020-10-11 19:44:49,567 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Total number of success responses :2
+2020-10-11 19:44:49,567 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.QUORUM_WAIT
+2020-10-11 19:44:49,567 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:44:49,640 -STD ibmfl.party.training.local_training_handler - INFO - No model update was provided.
+2020-10-11 19:44:49,640 -STD ibmfl.party.training.local_training_handler - INFO - Local training started...
+2020-10-11 19:44:49,640 -STD ibmfl.model.keras_fl_model - INFO - Using default hyperparameters:  batch_size:128
+2020-10-11 19:44:49,739 -STD ibmfl.party.training.local_training_handler - INFO - No model update was provided.
+2020-10-11 19:44:49,739 -STD ibmfl.party.training.local_training_handler - INFO - Local training started...
+2020-10-11 19:44:49,744 -STD ibmfl.model.keras_fl_model - INFO - Using default hyperparameters:  batch_size:128
+2020-10-11 19:44:49,826 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-10-11 19:44:49,907 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-10-11 19:44:54,570 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:5
+2020-10-11 19:44:54,570 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:44:59,612 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:10
+2020-10-11 19:44:59,664 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:45:04,760 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:15
+2020-10-11 19:45:04,817 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:45:06,774 -STD ibmfl.party.training.local_training_handler - INFO - Local training done, generating model update...
+2020-10-11 19:45:06,774 -STD ibmfl.party.party_protocol_handler - INFO - successfully finished async request
+2020-10-11 19:45:06,805 -STD ibmfl.party.training.local_training_handler - INFO - Local training done, generating model update...
+2020-10-11 19:45:06,818 -STD ibmfl.party.party_protocol_handler - INFO - successfully finished async request
+2020-10-11 19:45:07,015 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:45:07,033 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:45:07,295 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:45:07] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:45:07,303 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:45:07] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:45:09,874 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:20
+2020-10-11 19:45:09,874 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:45:09,882 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.PROC_RSP
+2020-10-11 19:45:10,057 -STD ibmfl.aggregator.fusion.iter_avg_fusion_handler - INFO - Model update<ibmfl.model.model_update.ModelUpdate object at 0x000001D8C6568860>
+2020-10-11 19:45:10,057 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.SND_REQ
+2020-10-11 19:45:10,407 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:45:10,407 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:45:10,580 -STD ibmfl.party.party_protocol_handler - INFO - received a async request
+2020-10-11 19:45:10,580 -STD ibmfl.party.party_protocol_handler - INFO - received a async request
+2020-10-11 19:45:10,580 -STD ibmfl.party.party_protocol_handler - INFO - finished async request
+2020-10-11 19:45:10,580 -STD ibmfl.party.party_protocol_handler - INFO - Handling async request in a separate thread
+2020-10-11 19:45:10,580 -STD ibmfl.party.party_protocol_handler - INFO - finished async request
+2020-10-11 19:45:10,600 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:45:10] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:45:10,600 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 19:45:10,600 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:45:10] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:45:10,611 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 19:45:10,621 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  7
+2020-10-11 19:45:10,634 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 7
+2020-10-11 19:45:10,634 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party0.npz
+2020-10-11 19:45:10,634 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  7
+2020-10-11 19:45:10,641 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 7
+2020-10-11 19:45:10,641 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party1.npz
+2020-10-11 19:45:10,712 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Total number of success responses :2
+2020-10-11 19:45:10,712 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.QUORUM_WAIT
+2020-10-11 19:45:10,717 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:45:11,642 -STD ibmfl.party.training.local_training_handler - INFO - Local model updated.
+2020-10-11 19:45:11,642 -STD ibmfl.party.training.local_training_handler - INFO - Local training started...
+2020-10-11 19:45:11,647 -STD ibmfl.model.keras_fl_model - INFO - Using default hyperparameters:  batch_size:128
+2020-10-11 19:45:11,799 -STD ibmfl.party.training.local_training_handler - INFO - Local model updated.
+2020-10-11 19:45:11,830 -STD ibmfl.party.training.local_training_handler - INFO - Local training started...
+2020-10-11 19:45:11,875 -STD ibmfl.model.keras_fl_model - INFO - Using default hyperparameters:  batch_size:128
+2020-10-11 19:45:15,762 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:5
+2020-10-11 19:45:15,843 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:45:20,947 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:10
+2020-10-11 19:45:20,983 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:45:21,978 -STD ibmfl.party.training.local_training_handler - INFO - Local training done, generating model update...
+2020-10-11 19:45:22,026 -STD ibmfl.party.party_protocol_handler - INFO - successfully finished async request
+2020-10-11 19:45:22,394 -STD ibmfl.party.training.local_training_handler - INFO - Local training done, generating model update...
+2020-10-11 19:45:22,405 -STD ibmfl.party.party_protocol_handler - INFO - successfully finished async request
+2020-10-11 19:45:22,451 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:45:22,627 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:45:22] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:45:22,659 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:45:22,812 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:45:22] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:45:26,032 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:15
+2020-10-11 19:45:26,032 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:45:26,032 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.PROC_RSP
+2020-10-11 19:45:26,113 -STD ibmfl.aggregator.fusion.iter_avg_fusion_handler - INFO - Model update<ibmfl.model.model_update.ModelUpdate object at 0x000001D8C3CA4B38>
+2020-10-11 19:45:26,113 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.SND_REQ
+2020-10-11 19:45:26,468 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:45:26,478 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:45:26,641 -STD ibmfl.party.party_protocol_handler - INFO - received a async request
+2020-10-11 19:45:26,641 -STD ibmfl.party.party_protocol_handler - INFO - finished async request
+2020-10-11 19:45:26,641 -STD ibmfl.party.party_protocol_handler - INFO - Handling async request in a separate thread
+2020-10-11 19:45:26,652 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:45:26] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:45:26,652 -STD ibmfl.party.party_protocol_handler - INFO - received a async request
+2020-10-11 19:45:26,652 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 19:45:26,661 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  7
+2020-10-11 19:45:26,661 -STD ibmfl.party.party_protocol_handler - INFO - finished async request
+2020-10-11 19:45:26,661 -STD ibmfl.party.party_protocol_handler - INFO - Handling async request in a separate thread
+2020-10-11 19:45:26,677 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:45:26] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:45:26,666 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 7
+2020-10-11 19:45:26,682 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party0.npz
+2020-10-11 19:45:26,677 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 19:45:26,682 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  7
+2020-10-11 19:45:26,692 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 7
+2020-10-11 19:45:26,697 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party1.npz
+2020-10-11 19:45:26,773 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Total number of success responses :2
+2020-10-11 19:45:26,773 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.QUORUM_WAIT
+2020-10-11 19:45:26,778 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:45:26,895 -STD ibmfl.party.training.local_training_handler - INFO - Local model updated.
+2020-10-11 19:45:26,895 -STD ibmfl.party.training.local_training_handler - INFO - Local training started...
+2020-10-11 19:45:26,900 -STD ibmfl.model.keras_fl_model - INFO - Using default hyperparameters:  batch_size:128
+2020-10-11 19:45:26,941 -STD ibmfl.party.training.local_training_handler - INFO - Local model updated.
+2020-10-11 19:45:26,971 -STD ibmfl.party.training.local_training_handler - INFO - Local training started...
+2020-10-11 19:45:26,979 -STD ibmfl.model.keras_fl_model - INFO - Using default hyperparameters:  batch_size:128
+2020-10-11 19:45:31,837 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:5
+2020-10-11 19:45:31,924 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:45:37,081 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:10
+2020-10-11 19:45:37,135 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:45:37,426 -STD ibmfl.party.training.local_training_handler - INFO - Local training done, generating model update...
+2020-10-11 19:45:37,494 -STD ibmfl.party.party_protocol_handler - INFO - successfully finished async request
+2020-10-11 19:45:37,658 -STD ibmfl.party.training.local_training_handler - INFO - Local training done, generating model update...
+2020-10-11 19:45:37,664 -STD ibmfl.party.party_protocol_handler - INFO - successfully finished async request
+2020-10-11 19:45:37,816 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:45:38,009 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:45:38] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:45:38,009 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 19:45:38,188 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 19:45:38] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 19:45:42,150 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:15
+2020-10-11 19:45:42,150 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 19:45:42,158 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.PROC_RSP
+2020-10-11 19:45:42,215 -STD ibmfl.aggregator.fusion.iter_avg_fusion_handler - INFO - Reached maximum global rounds. Finish training :) 
+2020-10-11 19:45:42,224 -STD __main__ - INFO - Finished Global Training
+2020-10-11 19:49:16,083 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party0.npz
+2020-10-11 19:49:28,744 -STD ibmfl.party.training.local_training_handler - INFO - {'loss': 0.8439456460952759, 'acc': 0.7118}
+2020-10-11 19:51:05,940 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party1.npz
+2020-10-11 19:51:18,276 -STD ibmfl.party.training.local_training_handler - INFO - {'loss': 0.775636005783081, 'acc': 0.7612}
+2020-10-11 20:03:48,620 -STD __main__ - INFO - Registering party...
+2020-10-11 20:03:48,640 -STD ibmfl.connection.flask_connection - INFO - Request received for path :6
+2020-10-11 20:03:48,640 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Adding party with id 905e1c5e-882d-46bc-85f0-b626a6f07539
+2020-10-11 20:03:48,660 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 20:03:48] "[37mPOST /6 HTTP/1.1[0m" 200 -
+2020-10-11 20:03:48,665 -STD __main__ - INFO - Registration Successful
+2020-10-11 20:04:17,843 -STD root - INFO - State: States.PROC_STOP
+2020-10-11 20:04:17,843 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.SND_REQ
+2020-10-11 20:04:17,867 -STD ibmfl.connection.flask_connection - INFO - Request received for path :14
+2020-10-11 20:04:17,867 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 20:04:17,867 -STD ibmfl.connection.flask_connection - INFO - Request received for path :14
+2020-10-11 20:04:17,867 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  14
+2020-10-11 20:04:17,877 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 20:04:17,877 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 14
+2020-10-11 20:04:17,877 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  14
+2020-10-11 20:04:17,877 -STD ibmfl.party.party_protocol_handler - INFO - received a STOP request
+2020-10-11 20:04:17,877 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 14
+2020-10-11 20:04:17,877 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 20:04:17] "[37mPOST /14 HTTP/1.1[0m" 200 -
+2020-10-11 20:04:17,877 -STD ibmfl.party.party_protocol_handler - INFO - received a STOP request
+2020-10-11 20:04:17,877 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 20:04:17] "[37mPOST /14 HTTP/1.1[0m" 200 -
+2020-10-11 20:04:19,936 -STD ibmfl.aggregator.protohandler.proto_handler - ERROR - Error occurred while sending request to party: <ibmfl.aggregator.party_connection.PartyConnection object at 0x000001D8D10B05F8> - HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /14 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D8D10F6D30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1287, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1333, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1282, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 1042, in _send_output
+    self.send(msg)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\http\client.py", line 980, in send
+    self.connect()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001D8D10F6D30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /14 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D8D10F6D30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\aggregator\protohandler\proto_handler.py", line 116, in send_message
+    res_msg = self.connection.send_message(party.info, message)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\connection\flask_connection.py", line 481, in send_message
+    response = self.post(endpoint, path, message, headers, certs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\ibmfl\connection\flask_connection.py", line 396, in post
+    return requests.post(url, data=data, headers=headers, verify=False, cert=certs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8085): Max retries exceeded with url: /14 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D8D10F6D30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+2020-10-11 20:04:20,157 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Total number of success responses :2
+2020-10-11 20:04:20,157 -STD ibmfl.connection.flask_connection - INFO - Stopping Receiver and Sender
+2020-10-11 20:04:20,183 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 20:04:20] "[37mPOST /shutdown HTTP/1.1[0m" 200 -
+2020-10-11 20:04:20,183 -STD __main__ - INFO - Aggregator stop successful
+2020-10-11 20:05:15,680 -STD __main__ - INFO - Registering party...
+2020-10-11 20:26:09,349 -STD ibmfl.util.config - INFO - Getting details from config file.
+2020-10-11 20:26:36,431 -STD ibmfl.util.config - INFO - No model config provided for this setup.
+2020-10-11 20:26:38,352 -STD ibmfl.util.config - INFO - No local training config provided for this setup.
+2020-10-11 20:26:38,363 -STD ibmfl.connection.flask_connection - INFO - RestSender initialized
+2020-10-11 20:26:38,363 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.START
+2020-10-11 20:26:38,363 -STD ibmfl.connection.flask_connection - INFO - Receiver Initialized
+2020-10-11 20:26:38,363 -STD ibmfl.connection.flask_connection - INFO - Initializing Flask application
+2020-10-11 20:26:38,373 -STD __main__ - INFO - Aggregator initialization successful
+2020-10-11 20:27:54,958 -STD root - INFO - State: States.CLI_WAIT
+2020-10-11 20:27:54,958 -STD __main__ - INFO - Aggregator start successful
+2020-10-11 20:27:55,163 -STD werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-10-11 20:28:25,679 -STD ibmfl.util.config - INFO - Getting config from file
+2020-10-11 20:28:25,679 -STD ibmfl.util.config - INFO - Getting details from config file.
+2020-10-11 20:28:37,188 -STD ibmfl.util.config - INFO - No fusion config provided for this setup.
+2020-10-11 20:28:38,581 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-10-11 20:28:38,891 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2020-10-11 20:28:39,851 -STD ibmfl.connection.flask_connection - INFO - RestSender initialized
+2020-10-11 20:28:39,932 -STD ibmfl.connection.flask_connection - INFO - Receiver Initialized
+2020-10-11 20:28:39,932 -STD ibmfl.connection.flask_connection - INFO - Initializing Flask application
+2020-10-11 20:28:39,939 -STD __main__ - INFO - Party initialization successful
+2020-10-11 20:28:56,257 -STD ibmfl.util.config - INFO - Getting config from file
+2020-10-11 20:28:56,257 -STD ibmfl.util.config - INFO - Getting details from config file.
+2020-10-11 20:29:07,421 -STD ibmfl.util.config - INFO - No fusion config provided for this setup.
+2020-10-11 20:29:09,057 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-10-11 20:29:09,331 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2020-10-11 20:29:10,484 -STD ibmfl.connection.flask_connection - INFO - RestSender initialized
+2020-10-11 20:29:10,494 -STD ibmfl.connection.flask_connection - INFO - Receiver Initialized
+2020-10-11 20:29:10,494 -STD ibmfl.connection.flask_connection - INFO - Initializing Flask application
+2020-10-11 20:29:10,500 -STD __main__ - INFO - Party initialization successful
+2020-10-11 20:29:16,047 -STD __main__ - INFO - Party start successful
+2020-10-11 20:29:16,087 -STD werkzeug - INFO -  * Running on http://127.0.0.1:8085/ (Press CTRL+C to quit)
+2020-10-11 20:29:20,743 -STD __main__ - INFO - Registering party...
+2020-10-11 20:29:20,831 -STD ibmfl.connection.flask_connection - INFO - Request received for path :6
+2020-10-11 20:29:20,831 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Adding party with id 5d58e5f6-5309-4b7c-835b-ae23c69df829
+2020-10-11 20:29:20,840 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 20:29:20] "[37mPOST /6 HTTP/1.1[0m" 200 -
+2020-10-11 20:29:20,844 -STD __main__ - INFO - Registration Successful
+2020-10-11 20:29:57,209 -STD __main__ - INFO - Party start successful
+2020-10-11 20:29:57,238 -STD werkzeug - INFO -  * Running on http://127.0.0.1:8086/ (Press CTRL+C to quit)
+2020-10-11 20:30:03,068 -STD __main__ - INFO - Registering party...
+2020-10-11 20:30:03,132 -STD ibmfl.connection.flask_connection - INFO - Request received for path :6
+2020-10-11 20:30:03,137 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Adding party with id 73eeab74-7484-4261-a116-9ccf65739fef
+2020-10-11 20:30:03,137 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 20:30:03] "[37mPOST /6 HTTP/1.1[0m" 200 -
+2020-10-11 20:30:03,142 -STD __main__ - INFO - Registration Successful
+2020-10-11 20:30:35,907 -STD root - INFO - State: States.PROC_TRAIN
+2020-10-11 20:30:35,915 -STD __main__ - INFO - Initiating Global Training.
+2020-10-11 20:30:35,923 -STD ibmfl.aggregator.fusion.fusion_handler - INFO - Warm start disabled.
+2020-10-11 20:30:35,924 -STD ibmfl.aggregator.fusion.iter_avg_fusion_handler - INFO - Model updateNone
+2020-10-11 20:30:35,924 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.SND_REQ
+2020-10-11 20:30:36,147 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 20:30:36,147 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 20:30:36,158 -STD ibmfl.party.party_protocol_handler - INFO - received a async request
+2020-10-11 20:30:36,155 -STD ibmfl.party.party_protocol_handler - INFO - received a async request
+2020-10-11 20:30:36,175 -STD ibmfl.party.party_protocol_handler - INFO - finished async request
+2020-10-11 20:30:36,175 -STD ibmfl.party.party_protocol_handler - INFO - Handling async request in a separate thread
+2020-10-11 20:30:36,175 -STD ibmfl.party.party_protocol_handler - INFO - finished async request
+2020-10-11 20:30:36,188 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 20:30:36,179 -STD ibmfl.party.party_protocol_handler - INFO - Handling async request in a separate thread
+2020-10-11 20:30:36,193 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 20:30:36] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 20:30:36,193 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 20:30:36] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 20:30:36,193 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  7
+2020-10-11 20:30:36,209 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 7
+2020-10-11 20:30:36,224 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party1.npz
+2020-10-11 20:30:36,193 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 20:30:36,240 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  7
+2020-10-11 20:30:36,245 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 7
+2020-10-11 20:30:36,260 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Total number of success responses :2
+2020-10-11 20:30:36,270 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party0.npz
+2020-10-11 20:30:36,275 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.QUORUM_WAIT
+2020-10-11 20:30:36,291 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 20:30:36,524 -STD ibmfl.party.training.local_training_handler - INFO - No model update was provided.
+2020-10-11 20:30:36,534 -STD ibmfl.party.training.local_training_handler - INFO - Local training started...
+2020-10-11 20:30:36,534 -STD ibmfl.model.keras_fl_model - INFO - Using default hyperparameters:  batch_size:128
+2020-10-11 20:30:36,576 -STD ibmfl.party.training.local_training_handler - INFO - No model update was provided.
+2020-10-11 20:30:36,587 -STD ibmfl.party.training.local_training_handler - INFO - Local training started...
+2020-10-11 20:30:36,587 -STD ibmfl.model.keras_fl_model - INFO - Using default hyperparameters:  batch_size:128
+2020-10-11 20:30:36,793 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-10-11 20:30:36,819 -STD tensorflow - WARNING - From C:\Users\vasudha\anaconda3.x\envs\fl_test\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-10-11 20:30:41,299 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:5
+2020-10-11 20:30:41,299 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 20:30:46,348 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:10
+2020-10-11 20:30:46,356 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 20:30:51,472 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:15
+2020-10-11 20:30:51,632 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 20:30:56,904 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:21
+2020-10-11 20:30:57,032 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 20:31:01,760 -STD ibmfl.party.training.local_training_handler - INFO - Local training done, generating model update...
+2020-10-11 20:31:01,848 -STD ibmfl.party.party_protocol_handler - INFO - successfully finished async request
+2020-10-11 20:31:02,011 -STD ibmfl.party.training.local_training_handler - INFO - Local training done, generating model update...
+2020-10-11 20:31:02,019 -STD ibmfl.party.party_protocol_handler - INFO - successfully finished async request
+2020-10-11 20:31:02,147 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 20:31:02,179 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:26
+2020-10-11 20:31:02,203 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 20:31:02,392 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 20:31:02] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 20:31:02,398 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 20:31:02,601 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 20:31:02] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 20:31:07,210 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:31
+2020-10-11 20:31:07,210 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 20:31:07,210 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.PROC_RSP
+2020-10-11 20:31:07,376 -STD ibmfl.aggregator.fusion.iter_avg_fusion_handler - INFO - Model update<ibmfl.model.model_update.ModelUpdate object at 0x000002823E808940>
+2020-10-11 20:31:07,381 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.SND_REQ
+2020-10-11 20:31:07,788 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 20:31:07,794 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 20:31:07,970 -STD ibmfl.party.party_protocol_handler - INFO - received a async request
+2020-10-11 20:31:07,970 -STD ibmfl.party.party_protocol_handler - INFO - finished async request
+2020-10-11 20:31:07,970 -STD ibmfl.party.party_protocol_handler - INFO - Handling async request in a separate thread
+2020-10-11 20:31:07,986 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 20:31:07] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 20:31:07,986 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 20:31:08,001 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  7
+2020-10-11 20:31:08,001 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 7
+2020-10-11 20:31:08,001 -STD ibmfl.party.party_protocol_handler - INFO - received a async request
+2020-10-11 20:31:08,001 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party0.npz
+2020-10-11 20:31:08,001 -STD ibmfl.party.party_protocol_handler - INFO - finished async request
+2020-10-11 20:31:08,006 -STD ibmfl.party.party_protocol_handler - INFO - Handling async request in a separate thread
+2020-10-11 20:31:08,021 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 20:31:08] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 20:31:08,021 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 20:31:08,036 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  7
+2020-10-11 20:31:08,041 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 7
+2020-10-11 20:31:08,041 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party1.npz
+2020-10-11 20:31:08,092 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Total number of success responses :2
+2020-10-11 20:31:08,092 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.QUORUM_WAIT
+2020-10-11 20:31:08,102 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 20:31:08,259 -STD ibmfl.party.training.local_training_handler - INFO - Local model updated.
+2020-10-11 20:31:08,267 -STD ibmfl.party.training.local_training_handler - INFO - Local training started...
+2020-10-11 20:31:08,267 -STD ibmfl.model.keras_fl_model - INFO - Using default hyperparameters:  batch_size:128
+2020-10-11 20:31:08,283 -STD ibmfl.party.training.local_training_handler - INFO - Local model updated.
+2020-10-11 20:31:08,347 -STD ibmfl.party.training.local_training_handler - INFO - Local training started...
+2020-10-11 20:31:08,411 -STD ibmfl.model.keras_fl_model - INFO - Using default hyperparameters:  batch_size:128
+2020-10-11 20:31:13,187 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:5
+2020-10-11 20:31:13,227 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 20:31:18,427 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:10
+2020-10-11 20:31:18,523 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 20:31:21,291 -STD ibmfl.party.training.local_training_handler - INFO - Local training done, generating model update...
+2020-10-11 20:31:21,323 -STD ibmfl.party.party_protocol_handler - INFO - successfully finished async request
+2020-10-11 20:31:21,379 -STD ibmfl.party.training.local_training_handler - INFO - Local training done, generating model update...
+2020-10-11 20:31:21,411 -STD ibmfl.party.party_protocol_handler - INFO - successfully finished async request
+2020-10-11 20:31:21,665 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 20:31:21,813 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 20:31:21,910 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 20:31:21] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 20:31:22,110 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 20:31:22] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 20:31:23,588 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:15
+2020-10-11 20:31:23,589 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 20:31:23,589 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.PROC_RSP
+2020-10-11 20:31:23,685 -STD ibmfl.aggregator.fusion.iter_avg_fusion_handler - INFO - Model update<ibmfl.model.model_update.ModelUpdate object at 0x00000282497CD438>
+2020-10-11 20:31:23,685 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.SND_REQ
+2020-10-11 20:31:24,121 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 20:31:24,146 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 20:31:24,326 -STD ibmfl.party.party_protocol_handler - INFO - received a async request
+2020-10-11 20:31:24,334 -STD ibmfl.party.party_protocol_handler - INFO - finished async request
+2020-10-11 20:31:24,334 -STD ibmfl.party.party_protocol_handler - INFO - Handling async request in a separate thread
+2020-10-11 20:31:24,342 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 20:31:24] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 20:31:24,347 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 20:31:24,351 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  7
+2020-10-11 20:31:24,356 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 7
+2020-10-11 20:31:24,356 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party0.npz
+2020-10-11 20:31:24,392 -STD ibmfl.party.party_protocol_handler - INFO - received a async request
+2020-10-11 20:31:24,417 -STD ibmfl.party.party_protocol_handler - INFO - finished async request
+2020-10-11 20:31:24,417 -STD ibmfl.party.party_protocol_handler - INFO - Handling async request in a separate thread
+2020-10-11 20:31:24,422 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 20:31:24] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 20:31:24,427 -STD ibmfl.party.party_protocol_handler - INFO - Received request from aggregator
+2020-10-11 20:31:24,443 -STD ibmfl.party.party_protocol_handler - INFO - Received request in with message_type:  7
+2020-10-11 20:31:24,448 -STD ibmfl.party.party_protocol_handler - INFO - Received request in PH 7
+2020-10-11 20:31:24,448 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party1.npz
+2020-10-11 20:31:24,549 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Total number of success responses :2
+2020-10-11 20:31:24,555 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.QUORUM_WAIT
+2020-10-11 20:31:24,559 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 20:31:24,671 -STD ibmfl.party.training.local_training_handler - INFO - Local model updated.
+2020-10-11 20:31:24,673 -STD ibmfl.party.training.local_training_handler - INFO - Local training started...
+2020-10-11 20:31:24,685 -STD ibmfl.model.keras_fl_model - INFO - Using default hyperparameters:  batch_size:128
+2020-10-11 20:31:24,956 -STD ibmfl.party.training.local_training_handler - INFO - Local model updated.
+2020-10-11 20:31:25,007 -STD ibmfl.party.training.local_training_handler - INFO - Local training started...
+2020-10-11 20:31:25,055 -STD ibmfl.model.keras_fl_model - INFO - Using default hyperparameters:  batch_size:128
+2020-10-11 20:31:29,639 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:5
+2020-10-11 20:31:29,720 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 20:31:34,886 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:10
+2020-10-11 20:31:34,952 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 20:31:37,814 -STD ibmfl.party.training.local_training_handler - INFO - Local training done, generating model update...
+2020-10-11 20:31:37,827 -STD ibmfl.party.party_protocol_handler - INFO - successfully finished async request
+2020-10-11 20:31:37,986 -STD ibmfl.party.training.local_training_handler - INFO - Local training done, generating model update...
+2020-10-11 20:31:37,988 -STD ibmfl.party.party_protocol_handler - INFO - successfully finished async request
+2020-10-11 20:31:38,175 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 20:31:38,404 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 20:31:38] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 20:31:38,404 -STD ibmfl.connection.flask_connection - INFO - Request received for path :7
+2020-10-11 20:31:38,624 -STD werkzeug - INFO - 127.0.0.1 - - [11/Oct/2020 20:31:38] "[37mPOST /7 HTTP/1.1[0m" 200 -
+2020-10-11 20:31:40,046 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Timeout:60 Time spent:15
+2020-10-11 20:31:40,051 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - Target Qorum: 2
+2020-10-11 20:31:40,057 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.PROC_RSP
+2020-10-11 20:31:40,128 -STD ibmfl.aggregator.fusion.iter_avg_fusion_handler - INFO - Reached maximum global rounds. Finish training :) 
+2020-10-11 20:31:40,133 -STD __main__ - INFO - Finished Global Training
+2020-10-11 20:32:12,525 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party1.npz
+2020-10-11 20:32:28,464 -STD ibmfl.party.training.local_training_handler - INFO - {'loss': 0.9337502091407776, 'acc': 0.694}
+2020-10-11 20:32:52,783 -STD ibmfl.util.data_handlers.mnist_keras_data_handler - INFO - Loaded training data from examples/data/mnist/random\data_party0.npz
+2020-10-11 20:33:08,805 -STD ibmfl.party.training.local_training_handler - INFO - {'loss': 0.6114164439201355, 'acc': 0.829}
+2020-10-11 23:20:13,059 -STD root - INFO - State: States.PROC_EVAL
+2020-10-11 23:20:13,335 -STD __main__ - INFO - Initiating evaluation requests.
+2020-10-11 23:20:13,579 -STD ibmfl.aggregator.protohandler.proto_handler - INFO - State: States.SND_REQ
